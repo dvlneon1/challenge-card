@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAFAF9;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 164px;
+}
+
+.card {
+    width: 368px;
+    height: 390px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card .img_card {
+    display: flex;
+    justify-content: center;
+    padding: 2px 2px;    
+}
+
+.card .img_card img {
+    width: 336px;
+    height: 152px;
+    border-radius: 12px;
+    margin-top: 16px;
+}
+
+.card .btn_class {
+    display: flex;
+    justify-content: left;
+    margin: 16px 16px;
+}
+
+.card .btn_class button {
+    padding: 6px 16px;
+    border: none;
+    border-radius: 14px;
+    background-color: #E6D6FC;
+    font-family: 'Sora', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: #883AE1;
+}
+
+.card .text-description{
+    display: flex;
+    flex-direction: column;
+    margin: 16px 16px 20px 16px;
+    font-family: 'Sora',sans-serif;
+}
+
+.card .text-description h1 {
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.card .text-description p {
+    color: #6C727F;
+    font-size: 12px;
+}
+
+.card .text-description hr{
+    color: #6C727F;
+    margin-top: 20px;
+}
+
+.card .text-description small {
+    color: #6C727F;
+    font-size: 10px;
+    margin-top: 32px;
+}
+
