@@ -8,5 +8,5 @@ A PLATAFORMA UTILIZADA FOI https://devchallenges.io.
 <br>
 -O card foi criado totalmente com um guia de design: https://devchallenges.io/challenge/27 
 <br>
--Não hove copia de códigos
+-Não houve copia de códigos
 -Resultado de comparação: https://devchallenges.io/solution/1074
