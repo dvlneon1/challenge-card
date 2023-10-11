@@ -69,16 +69,18 @@ body{
 .card .text-description p {
     color: #6C727F;
     font-size: 12px;
-}
-
-.card .text-description hr{
-    color: #6C727F;
-    margin-top: 20px;
+    font-weight: 300;
+    font-kerning: none;
+    font-stretch: expanded;
 }
 
 .card .text-description small {
     color: #6C727F;
     font-size: 10px;
-    margin-top: 32px;
+    margin-top: 20px;
 }
 
+.card .text-description hr {
+    background-color: #E5EAF0;
+    margin-top: 20px;
+}
